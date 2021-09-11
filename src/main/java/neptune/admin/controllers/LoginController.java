@@ -23,4 +23,8 @@ public class LoginController {
         return "admin/index";
     }
 
+    @RequestMapping(path = "/logout")
+    public String logout() {
+        return "logout";
+    }
 }
