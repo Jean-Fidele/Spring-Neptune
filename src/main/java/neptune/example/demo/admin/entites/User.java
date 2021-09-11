@@ -10,11 +10,13 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class Salle {
-
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-    private String code;
-    private String libelle;
+    private String nom;
+    private String prenom;
+    private String adresse;
+    private String phone;
+    private String situation_matrimoniale;
 }
