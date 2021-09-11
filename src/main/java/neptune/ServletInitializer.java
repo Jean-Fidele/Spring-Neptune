@@ -1,4 +1,4 @@
-package neptune.example.demo;
+package neptune;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

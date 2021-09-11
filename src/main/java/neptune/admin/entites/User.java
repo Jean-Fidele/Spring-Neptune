@@ -1,4 +1,4 @@
-package neptune.example.demo.admin.entites;
+package neptune.admin.entites;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
